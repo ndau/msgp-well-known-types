@@ -19,6 +19,9 @@ type Uint32 uint32
 type Uint64 uint64
 type Byte byte
 
+// Bytes is []byte because that's a very common idiom
+type Bytes []byte
+
 // Uintptr is excluded because msgp doesn't know how to handle it
 // type Uintptr uintptr
 
